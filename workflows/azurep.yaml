@@ -15,6 +15,6 @@ jobs:
         - name: Azure Pipelines Action
           uses: Azure/pipelines@v1
           with:
-            azure-devops-project-url: https://dev.azure.com/organization/project-name
-            azure-pipeline-name: 'My Pipeline'
+            azure-devops-project-url: https://dev.azure.com/slive77/learn
+            azure-pipeline-name: '8-Legged-Pancake.python-sample-vscode-flask-tutorial'
             azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
